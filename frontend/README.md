@@ -2,7 +2,7 @@
 
 ## API Endpoints
 
-#### Base URL:
+#### Backend Base URL:
 
 **_The base URL for API requests is `https://zomato-clone-f9tb.onrender.com/api`._**
 
@@ -137,3 +137,13 @@ Response:
   ```
 
   Request header: Authorization: Bearer <token>
+
+## FrontEnd Site
+
+#### FrontEnd URL:
+
+**_The base URL for API requests is `https://zomato-clone-frontend-9g69.onrender.com/`._**
+
+#### Admin URL:
+
+**_The base URL for API requests is `https://zomato-clone-admin-jklc.onrender.com/`._**
