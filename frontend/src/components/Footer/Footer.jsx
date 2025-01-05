@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, useNavigate } from "react-router-dom";
 import "./Footer.css";
 import { assets } from "../../assets/assets";
 
@@ -7,7 +8,8 @@ const Footer = () => {
     <div className="footer" id="footer">
       <div className="footer-content">
         <div className="footer-content-left">
-          <img src={assets.logo} alt="" />
+          {/* <img src={assets.logo} alt="" /> */}
+          <h2 className="logo-title">Zomato</h2>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
@@ -23,7 +25,11 @@ const Footer = () => {
         <div className="footer-content-center">
           <h2>COMPANY</h2>
           <ul>
-            <li>Home</li>
+            <li>
+              <Link to="/" onClick={() => window.scrollTo(0, 0)}>
+                Home
+              </Link>
+            </li>
             <li>About us</li>
             <li>Delivery</li>
             <li>Privacy policy</li>
@@ -32,14 +38,15 @@ const Footer = () => {
         <div className="footer-content-right">
           <h2>GET IN TOUCH</h2>
           <ul>
-            <li>+1-212-456-7890</li>
-            <li>contact@tomato.com</li>
+            <li>+91-7297952644</li>
+            <li>contact@zomato.com</li>
+            <li>paru2192000@gmail.com</li>
           </ul>
         </div>
       </div>
       <hr />
       <p className="footer-copyright">
-        Copyright 2024 © Tomato.com - All Right Reserved By Praveen
+        Copyright 2024 © Zomato.com - All Right Reserved By Praveen
       </p>
     </div>
   );
