@@ -216,7 +216,7 @@ Response:
 
 Backend, Frontend and Admin: Are hosted on Render. and accessible at here:
 
--**Backend**: https://zomato-clone-f9tb.onrender.com/ -**Frontend**:https://zomato-clone-frontend-9g69.onrender.com/ -**Admin**:https://zomato-clone-admin-jklc.onrender.com/
+-**Backend** : https://zomato-clone-f9tb.onrender.com/ <br/> -**Frontend** :https://zomato-clone-frontend-9g69.onrender.com/ <br/> -**Admin**:https://zomato-clone-admin-jklc.onrender.com/
 
 ### Additional Notes
 
