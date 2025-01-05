@@ -48,7 +48,7 @@ This application allows users to:
 
 ## Setup Instructions
 
-### Backend Setup
+### Complete Setup
 
 1. Clone the repository:
    ```bash
